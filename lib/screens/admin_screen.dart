@@ -47,7 +47,7 @@ class _AdminScreenState extends State<AdminScreen> {
 
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text(accept ? "Chofer aprobado ✅" : "Chofer rechazado ❌"),
+        content: Text(accept ? "Chofer aaprobado ✅" : "Chofer rechazado ❌"),
         duration: Duration(seconds: 2),
       ),
     );
